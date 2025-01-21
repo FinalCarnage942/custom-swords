@@ -1,0 +1,114 @@
+gui:
+  layouts:
+    common:
+      - [0, 0, 0, 0, 0, 0, 0, 0, 0]
+      - [0, 0, 1, 0, 1, 0, 1, 0, 0]
+      - [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    uncommon:
+      - [0, 0, 0, 0, 0, 0, 0, 0, 0]
+      - [0, 1, 0, 1, 0, 1, 0, 1, 0]
+      - [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    rare:
+    legendary:
+    mythical:
+
+
+swords:
+  cutlass:
+    name: "§9§lCutlass"
+    item: "IRON_SWORD"
+    description:
+      - "§7§lA fast and sharp blade used by skilled sailors."
+      - "§7§lAbilities:"
+      - "§b§lLeft-Click: Quiet Rush"
+      - "§b§lRight-Click: Air Slash"
+    rarity: "common"
+    cooldowns:
+      quiet_rush: 10000 # Cooldown in milliseconds
+      air_slash: 10000 # Cooldown in milliseconds
+    damage:
+      quiet_rush: 10 # Damage value
+      air_slash: 8 # Damage value
+      # mastery:
+      # quiet_rush: 1
+      # air_slash: 20
+
+
+  katana:
+    name: "§c§lKatana"
+    item: "WOODEN_SWORD"
+    description:
+      - "§7§lA legendary sword from Blox Fruits."
+      - "§7§lAbilities:"
+      - "§b§lLeft-Click: Quiet Rush"
+      - "§b§lRight-Click: Air Slash"
+    rarity: "common"
+    cooldowns:
+      quiet_rush: 10000 # Cooldown in milliseconds
+      air_slash: 10000 # Cooldown in milliseconds
+    damage:
+      quiet_rush: 12 # Damage value
+      air_slash: 9 # Damage value     
+      # mastery:
+      # quiet_rush: 1
+      # air_slash: 20
+
+
+  dual_katana:
+    name: "§b§lDual Katana"
+    item: "WOODEN_SWORD"
+    description:
+      - "§7§lA pair of legendary swords wielded together."
+      - "§7§lAbilities:"
+      - "§b§lLeft-Click: Whirlwind"
+      - "§b§lRight-Click: Tornado"
+    rarity: "common"
+    cooldowns:
+      whirlwind: 7000 # Cooldown in milliseconds
+      tornado: 13000 # Cooldown in milliseconds
+    damage:
+      whirlwind: 10 # Damage value
+      tornado: 10 # Damage value
+      # mastery:
+      # whirlwind: 1
+      # tornado: 30
+
+
+  triple_katana:
+    name: "§6§lTriple Katana"
+    item: "WOODEN_SWORD"
+    description:
+      - "§7§lA set of three swords wielded with unmatched skill."
+      - "§7§lAbilities:"
+      - "§e§lLeft-Click: Violent Rush"
+      - "§6§lRight-Click: Air Slashes Barrage"
+    rarity: "uncommon"
+    cooldowns:
+      whirlwind: 5000 # Cooldown in milliseconds
+      triple_slash: 7000 # Cooldown in milliseconds
+    damage:
+      whirlwind: 15 # Damage value
+      triple_slash: 20 # Damage value
+        # mastery:
+        # air slashes barrage: 20
+        # violent rush: 60
+
+
+  shark_saw:
+    name: "§4§lShark Saw"
+    item: "MACE"
+    description:
+      - "§7§lA mighty weapon resembling a shark's deadly bite."
+      - "§7§lAbilities:"
+      - "§c§lLeft-Click: Consecutive Slashes"
+      - "§c§lRight-Click: Execution"
+    rarity: "uncommon"
+    cooldowns:
+      consecutive_slashes: 8000 # Cooldown in milliseconds
+      execution: 12000 # Cooldown in milliseconds
+    damage:
+      consecutive_slashes: 15 # Damage value
+      execution: 25 # Damage value
+        # mastery:
+        # consecutive_slashes: 10
+      # execution: 60

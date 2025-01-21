@@ -1,0 +1,10 @@
+name: BloxFruits
+version: '1.21.3'
+main: me.Carnage.bloxFruits.BloxFruits
+api-version: '1.21'
+
+commands:
+  bloxfruits:
+    description: Main command for the Blox Fruits plugin.
+    usage: "/bloxfruits <sword_name>"
+
